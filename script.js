@@ -46,7 +46,7 @@ window.addEventListener("load", () => {
       ];
   
       //get current date and time
-      const date = monthList[month] + " " + day + ", " + year;
+      const date = monthList[month] + " " + day + " " + year;
       const time = hourTime + ":" + minute + ":" + second + ampm;
   
       //combine current date and time
